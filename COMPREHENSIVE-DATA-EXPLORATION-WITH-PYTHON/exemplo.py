@@ -9,15 +9,15 @@ import warnings
 warnings.filterwarnings('ignore')
 #%matplotlib inline
 
-df_train = pd.read_csv('../TEST_FILES/train.csv')
+df_train = pd.read_csv('train.csv')
 
 df_train.columns
 
-print(df_train['NU_NOTA_MT'].describe())
+print(df_train['SalePrice'].describe())
 
-sns.distplot(df_train['NU_NOTA_MT'])
+sns.distplot(df_train['SalePrice'])
 
-print("Skewness: %f" % df_train['NU_NOTA_MT'].skew())
-print("Kurtosis: %f " % df_train['NU_NOTA_MT'].kurt())
+print("Skewness: %f" % df_train['SalePrice'].skew())
+print("Kurtosis: %f " % df_train['SalePrice'].kurt())
 
 plt.show()
