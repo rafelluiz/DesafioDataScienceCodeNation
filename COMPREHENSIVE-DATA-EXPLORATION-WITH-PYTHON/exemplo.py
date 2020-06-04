@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings('ignore')
 #%matplotlib inline
 
-df_train = pd.read_csv('train.csv')
+onedf_train = pd.read_csv('train.csv')
 
 df_train.columns
 
