@@ -16,3 +16,10 @@ https://www.coursera.org/learn/machine-learning/lecture/6Nj1q/multiple-features
 http://bigdata-madesimple.com/how-to-run-linear-regression-in-python-scikit-learn/
 
 Link github/medium de pessoas que me ajudaram
+
+https://medium.com/@leonardopiechacaldeira/descubra-as-melhores-notas-de-matem%C3%A1tica-do-enem-2016-4a13bcae4d04 (Pontuacao no maximo 46)
+https://github.com/lpcaldeira/codenation-data-science
+
+https://medium.com/ensina-ai/machine-learning-randomforest-para-prever-nota-de-matem%C3%A1tica-do-enem-2016-8893b73882f4 ( melhor Pontuacao mais de 93)
+https://github.com/gabiviana93/prevendo-nota-matematica-enem-2016
+
