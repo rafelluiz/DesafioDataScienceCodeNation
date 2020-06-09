@@ -1,0 +1,18 @@
+site do desafo:
+https://www.codenation.dev/aceleradev/ds-online-2/challenge/enem-ps
+
+
+Links para aprendizado:
+https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python
+https://tomaugspurger.github.io/modern-1-intro.html
+https://tomaugspurger.github.io/method-chaining
+https://tomaugspurger.github.io/modern-3-indexes
+https://tomaugspurger.github.io/modern-4-performance
+https://tomaugspurger.github.io/modern-5-tidy
+http://scikit-learn.org/stable/tutorial/basic/tutorial.html
+http://onlinestatbook.com/2/regression/intro.html
+https://www.coursera.org/lecture/machine-learning/model-representation-db3jS
+https://www.coursera.org/learn/machine-learning/lecture/6Nj1q/multiple-features
+http://bigdata-madesimple.com/how-to-run-linear-regression-in-python-scikit-learn/
+
+Link github/medium de pessoas que me ajudaram
