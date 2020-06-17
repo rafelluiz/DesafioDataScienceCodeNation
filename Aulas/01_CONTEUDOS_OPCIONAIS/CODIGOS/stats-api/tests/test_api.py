@@ -2,15 +2,17 @@ import pytest
 import requests
 
 class TestAPI:
-  @pytest.fixture
+
+  # Scopes: function, class, module
+  @pytest.fixture(scope='class')
   def url(self):
     return 'http://localhost:5000/data'
 
-  @pytest.fixture
+  @pytest.fixture(scope='class')
   def data(self):
     return [1,2,3,4]
 
-  @pytest.fixture
+  @pytest.fixture(scope='class')
   def uuid(self, url, data):
     response = requests.post(url,json={"data":data})
 
@@ -25,8 +27,10 @@ class TestAPI:
     assert response.ok
     assert response.json()['data'] == data
 
-  def test_calc_mean(self,url,uuid):
-    response = requests.get(f'{url}/{uuid}/mean')
+
+  @pytest.mark.parametrize('operation,expected_result',[('mean',2.5),('min',1),('max',4)])
+  def test_calc_parameterized(self,url,uuid,operation,expected_result):
+    response = requests.get(f'{url}/{uuid}/{operation}')
 
     assert response.ok
-    assert response.json()['result'] == pytest.approx(2.5)
+    assert response.json()['result'] == pytest.approx(expected_result)
