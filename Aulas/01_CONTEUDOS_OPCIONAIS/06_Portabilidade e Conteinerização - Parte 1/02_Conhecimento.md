@@ -17,6 +17,12 @@ $ sudo docker container ls
 $ sudo docker container ls -a
 ```
 
+##### :no_entry: Remover todos os Containers de uma só vez
+
+```
+$ sudo docker container rm $(sudo docker container ls -a -q)
+```
+
 #### Criar Imagem Docker
 Ex:
 
@@ -51,3 +57,4 @@ $ sudo docker build -t statsapi:0.0.1 . # onde o (.) seria o contexto
 ```
 $ sudo docker run -ti -p 5000:5000 statsapi:0.0.1 # Onde -ti é para interação e -p seria a porta
 ```
+
